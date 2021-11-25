@@ -1,0 +1,50 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    background: #fdfcfb;
+    font-weight: normal;
+}
+.navbar{
+    height: 86px;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    z-index: 1;
+}
+ul.menu a.nav-link{
+    font-weight: 500;
+}
+ul.menu a.nav-link.active,
+ul.menu a.nav-link:hover{
+    border-bottom: 2px solid #d42819 !important;
+}
+ul.social-button a.nav-link{
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+}
+ul.social-button a.nav-link:hover{
+    --bs-bg-opacity: 0.5;
+}
+.intro-text span{
+    color: #d42819;
+}
+.card img{
+    height: auto;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    transition: box-shadow .2s linear;
+}
+.card img:hover{
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.5);
+}
+.card-title:hover{
+    color: #d42819 !important;
+}
+.page-item.active .page-link{
+    background-color: rgba(0,0,0,.2);
+    border-color: rgba(0,0,0,.2);
+}
+.page-link:active, .page-link:focus{
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+}
+footer p{
+    opacity: 0.8;
+}
